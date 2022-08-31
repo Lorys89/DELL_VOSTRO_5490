@@ -23,7 +23,7 @@ EFI for Dell Vostro 5490 with OpenCore bootloader
 | SSD SATA         | Silicon Power A55 256 GB (WIN 11)  |
 | SmBios           | MacBookPro 16,3                    |
 | BootLoader       | OpenCore 0.8.3                     |
-| macOS            | Monterey 16.3                      |
+| macOS            | Ventura 13 Beta 6                  |
 
 
 ![infomac](./Screenshot/infomac.png)
