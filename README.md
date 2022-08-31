@@ -38,7 +38,7 @@ EFI for Dell Vostro 5490 with OpenCore bootloader
 - [x] ALC236 Internal Speakers
 - [ ] Intel SST Internal microphone (Not Support)
 - [x] ALC236 Combojack headphones
-- [ ] ALC236 Combojack microphone
+- [ ] ALC236 Combojack microphone (WIP)
 - [x] ALC236 HDMI Audio Output
 - [x] ALC236 TYPE-C to HDMI Audio Output (Not supported at the moment)
 - [x] All USB-A 3.1 Ports (TYPE-C 3.2 Included)
