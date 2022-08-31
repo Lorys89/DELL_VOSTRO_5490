@@ -101,7 +101,8 @@ See [ioreg](./ioreg%20MacBook%20Pro%2016%2C3.ioreg) for more clarification
 * Power On Lid Open
 * Enable UEFI Network Stack
 * Sign Of Life : Early Logo Display / Early keyboard backlight
-* cfg lock and DVMT: DO AT YOUR OWN RISK!!! It may brick your laptop.
+* cfg lock and DVMT: It is essential to set it up to start with this EFI
+
 
  ![CFG-Lock](./Screenshot/CFG-Lock.png)
  ![DVMT](./Screenshot/DVMT.png)
