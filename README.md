@@ -35,7 +35,7 @@ EFI for Dell Vostro 5490 with OpenCore bootloader
 - [x] Intel UHD iGPU - H264 & HEVC
 - [ ] DGPU Nvidia MX250 2GB GDDR5 (Not Support)
 - [x] ALC236 Internal Speakers
-- [ ] Intel SST Internal microphone (Not Support)
+- [ ] Intel SST DMIC Internal microphone (Not Support)
 - [x] ALC236 Combojack headphones
 - [ ] ALC236 Combojack microphone (WIP)
 - [x] ALC236 HDMI Audio Output
