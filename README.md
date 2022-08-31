@@ -69,9 +69,6 @@ EFI for Dell Vostro 5490 with OpenCore bootloader
 ![speedtest](./Screenshot/speedtest.png)
 ![touchpad](./Screenshot/touchpad.png)
 ![trascinamento](./Screenshot/trascinamento.png)
-![CPU](./Screenshot/CPU.png)
-![openCL](./Screenshot/openCL.png)
-![metal](./Screenshot/metal.png)
 ![videoproc](./Screenshot/videoproc.png)
 
 
