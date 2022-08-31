@@ -1,6 +1,5 @@
 # Dell Vostro 5490 (Comet Lake U) Hackintosh
 [![](https://img.shields.io/badge/EFI-Release-informational?style=flat&logo=apple&logoColor=white&color=9debeb)](https://github.com/Lorys89/DELL_VOSTRO_5490/releases)
-[![](https://img.shields.io/badge/Telegram-HackintoshLifeIT-informational?style=flat&logo=telegram&logoColor=white&color=5fb659)](https://t.me/HackintoshLife_it)
 
 
 
@@ -131,5 +130,3 @@ next to 00F5 and set it to 03 then save with ctrl + w and to exit alt + q and yo
 
 - [Apple](https://apple.com) for macOS.
 - [Acidanthera](https://github.com/acidanthera) for OpenCore and all the lovely hackintosh work.
-- [Dortania](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/icelake.html) For great and detailed guides.
-- [Hackintoshlifeit](https://github.com/Hackintoshlifeit) Support group for installation and post installation.
