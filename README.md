@@ -65,18 +65,15 @@ EFI for Dell Vostro 5490 with OpenCore bootloader
 
 ![infohack](./Screenshot/periferiche.png)
 ![infodp2](./Screenshot/pci-list.png)
-![infopci](./Screenshot/pci-dev.png)
 ![Temp-Fan-Control](./Screenshot/Temp-Fan-Control.png)
 ![speedtest](./Screenshot/speedtest.png)
 ![touchpad](./Screenshot/touchpad.png)
 ![trascinamento](./Screenshot/trascinamento.png)
-![5finger](./Screenshot/fingermgmt.png)
 ![CPU](./Screenshot/CPU.png)
 ![openCL](./Screenshot/openCL.png)
 ![metal](./Screenshot/metal.png)
 ![videoproc](./Screenshot/videoproc.png)
 ![Bench-Ram-Nvme](./Screenshot/Bench-Ram-Nvme.png)
-![Intel-PWR-Gadget](./Screenshot/intel-pwr-gadget.png)
 
 
 ### Special Config:
@@ -92,7 +89,7 @@ See [ioreg](./ioreg%20MacBook%20Pro%2016%2C3.ioreg) for more clarification
 - [Guide Dortania](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/) - USB creation
 
 
-## Bios settings for Bios Version 1.4.4
+## Bios settings
 ### Enable :
 * SATA Operation : AHCI
 * Fastboot : Thorough
