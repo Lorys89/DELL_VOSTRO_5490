@@ -116,8 +116,8 @@ enter and then ctrl + w to save and then alt + q to exit. proceed to check if yo
 
 ![CpuSetup](./TOOLS%20EFI%20MOD/CpuSetup.png)
 
-For the 2 DVMT values you have to go to the SaSetup menu and enter and look for 00F4 and set it to 02 and then move 
-next to 00F5 and set it to 03 then save with ctrl + w and to exit alt + q and you will have the suitable DVMT values to the igpu ice lake. 
+For the 2 DVMT values you have to go to the SaSetup menu and enter and look for 00F5 and set it to 02 and then move 
+next to 00F6 and set it to 03 then save with ctrl + w and to exit alt + q and you will have the suitable DVMT values to the igpu ice lake. 
 
 ![SaSetup](./TOOLS%20EFI%20MOD/SaSetup.png)
 
