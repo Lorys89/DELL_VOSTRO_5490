@@ -1,13 +1,10 @@
-# Dell Vostro 5401 (Ice Lake) Hackintosh
-[![](https://img.shields.io/badge/Gitter%20Ice%20Lake-Chat-informational?style=flat&logo=gitter&logoColor=white&color=ed1965)](https://gitter.im/ICE-LAKE-HACKINTOSH-DEVELOPMENT/community)
-[![](https://img.shields.io/badge/EFI-Release-informational?style=flat&logo=apple&logoColor=white&color=9debeb)](https://github.com/Lorys89/DELL_VOSTRO_5401-ICE-LAKE/releases)
+# Dell Vostro 5490 (Comet Lake U) Hackintosh
+[![](https://img.shields.io/badge/EFI-Release-informational?style=flat&logo=apple&logoColor=white&color=9debeb)](https://github.com/Lorys89/DELL_VOSTRO_5490/releases)
 [![](https://img.shields.io/badge/Telegram-HackintoshLifeIT-informational?style=flat&logo=telegram&logoColor=white&color=5fb659)](https://t.me/HackintoshLife_it)
 
 
 
-EFI for Dell Vostro 5401 with OpenCore bootloader
-
-(Compatible for Dell Inspiron 5401/5408/5501/5508 e Vostro 5401/5501, (i3 G1 - i5 G1 - i7 G7) these laptops use the same bios file)
+EFI for Dell Vostro 5490 with OpenCore bootloader
 
 ![descrizione](./Screenshot/pc.jpg)
 
@@ -15,33 +12,35 @@ EFI for Dell Vostro 5401 with OpenCore bootloader
 
 | Component        | Brank                              |
 | ---------------- | ---------------------------------- |
-| CPU              | Intel i7 1065G7 (4C-8T 8MB ICL)    |
-| iGPU             | Intel® Iris Plus Graphics          |
+| CPU              | Intel i7 10510U (4C-8T 8MB CML-U)  |
+| iGPU             | Intel® UHD Graphics                |
+| DGPU.            | Nvidia MX250 2GB GDDR5             |
 | Lan              | Realtek 8168                       |
 | Audio            | Realtek ALC236                     |
-| Ram              | 32 GB DDR4 3200 Mhz                |
-| Wifi + Bluetooth | BCM943602BAED (DW1830)             |
-| NVMe             | HYNIX BC511 512 GB (WINDOWS)       |
-| NVME             | SAMSUNG 970 EVO PLUS 500 GB (MACOS)|
-| SmBios           | MacBookPro 16,2                    |
-| BootLoader       | OpenCore 0.7.6                     |
-| macOS            | Monterey 12.1                      |
+| Ram              | 16 GB DDR4 2667 Mhz                |
+| Wifi + Bluetooth | BCM94352Z (DW1560)                 |
+| NVMe             | Koxia KBG40ZNS512G 512 GB (MACOS)  |
+| SSD SATA         | Silicon Power A55 256 GB (WIN 11)  |
+| SmBios           | MacBookPro 16,3                    |
+| BootLoader       | OpenCore 0.8.3                     |
+| macOS            | Monterey 16.3                      |
 
 
 ![infomac](./Screenshot/infomac.png)
 
 ### What works and What doesn't or WIP:
 
-- [x] Intel Iris Plus iGPU eDP with Backlight Output
-- [ ] Intel Iris Plus iGPU HDMI Output (Not supported at the moment)
-- [ ] Intel Iris Plus iGPU Type-C to HDMI Output (Not supported at the moment)
-- [x] Intel Iris Plus iGPU - H264 & HEVC
+- [x] Intel UHD iGPU eDP with Backlight Output
+- [x] Intel UHD iGPU HDMI Output
+- [x] Intel UHD iGPU Type-C to HDMI Output
+- [x] Intel UHD iGPU - H264 & HEVC
+- [ ] DGPU Nvidia MX250 2GB GDDR5 (Not Support)
 - [x] ALC236 Internal Speakers
-- [x] ALC236 Internal microphone
+- [ ] Intel SST Internal microphone (Not Support)
 - [x] ALC236 Combojack headphones
 - [ ] ALC236 Combojack microphone
-- [ ] ALC236 HDMI Audio Output (Not supported at the moment)
-- [ ] ALC236 TYPE-C to HDMI Audio Output (Not supported at the moment)
+- [x] ALC236 HDMI Audio Output
+- [x] ALC236 TYPE-C to HDMI Audio Output (Not supported at the moment)
 - [x] All USB-A 3.1 Ports (TYPE-C 3.2 Included)
 - [x] SpeedStep / Sleep / Wake
 - [x] HID Key PWRB & SLPB 
@@ -50,13 +49,13 @@ EFI for Dell Vostro 5401 with OpenCore bootloader
 - [x] F6 & F7 Brightness Key
 - [x] F10 Print Screen Key
 - [x] F1 & F2 & F3 Sound Key
-- [x] Wi-Fi and Bluetooth BCM943602BAED (DW1830) Module
+- [x] Wi-Fi and Bluetooth BCM94352Z (DW1560) Module
 - [x] Realtek RTL8168 LAN
 - [x] SSD NVME Slot-1 PciE Gen3x4
-- [x] SSD NVME Slot-2 PciE Gen3x4 
+- [x] Sata Slot AHCI
 - [x] Micro SD Cardreader (USB-Internal)
 - [x] WebCam (USB-Internal)
-- [x] All Sensors CPU, IGPU, BATTERY, NVME, FAN
+- [x] All Sensors CPU, IGPU, BATTERY, NVME, SATA, FAN
 - [x] ACPI Battery
 - [x] NVRAM (Native)
 - [x] Recovery (macOS) boot from OpenCore
@@ -85,7 +84,7 @@ EFI for Dell Vostro 5401 with OpenCore bootloader
 - Usb port mapping performed
 - SSDT-Hack Essential patch
 
-See [ioreg](./ioreg%20MacBook%20Pro%2016%2C2.ioreg) for more clarification
+See [ioreg](./ioreg%20MacBook%20Pro%2016%2C3.ioreg) for more clarification
 
 
 ### MacOS bootable USB creation:
