@@ -73,7 +73,6 @@ EFI for Dell Vostro 5490 with OpenCore bootloader
 ![openCL](./Screenshot/openCL.png)
 ![metal](./Screenshot/metal.png)
 ![videoproc](./Screenshot/videoproc.png)
-![Bench-Ram-Nvme](./Screenshot/Bench-Ram-Nvme.png)
 
 
 ### Special Config:
